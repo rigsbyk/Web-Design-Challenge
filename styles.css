@@ -64,12 +64,16 @@ p{
     border-style: solid;
 }
 
-
+.table-responsive{
+    display:table;
+    width:100%
+}
 
 .thead-dark{
     background-color:rgb(79,170,165);
 }
 
+.table-responsive-fix{display:table;}
 
 footer{
 
@@ -88,7 +92,7 @@ footer{
 }
 
 /*Media Queries*/
-@media(max-width: 576px){
+@media(max-width: 990px){
 
 .navbar-expand-lg{background-color:rgb(79,170,165) !important;}
 
